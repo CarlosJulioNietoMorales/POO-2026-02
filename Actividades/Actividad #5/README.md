@@ -2,11 +2,11 @@
 
 **Universidad Nacional de Colombia**
 
-## 📖 Actividad 5
+## Actividad 5
 
 
-## 👨‍🎓 Estudiante
+## Estudiante
 Carlos Julio Nieto Morales
 
-## 👨‍🏫 Docente
+## Docente
 Walter Hugo Arboleda Mazo
