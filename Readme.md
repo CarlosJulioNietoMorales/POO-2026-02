@@ -9,7 +9,7 @@ Codificación en Java/Python usando clases, métodos y atributos.
 Carlos Julio Nieto Morales
 
 ## Docente
-[Nombre completo del profesor]
+[Walter Hugo Arboleda Mazo]
 
 ## Estructura del repositorio
 - **Entregas** → PDFs enviados al profesor.
