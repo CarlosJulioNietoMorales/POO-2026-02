@@ -1,12 +1,18 @@
 # Curso Programación Orientada a Objetos (2026-2S)
 
-Repositorio de respaldo para actividades, ejercicios y entregas del curso POO.
+**Universidad Nacional de Colombia**
 
-## Estructura
-- **Entregas** → PDFs enviados al profesor
-- **Actividades** → Código fuente
-- **README.md** → Este archivo con la descripción del repo
+## Actividad 1
+Codificación en Java/Python usando clases, métodos y atributos.
 
-## Autor
-Carlos Julio Nieto Morales  
-Universidad Nacional de Colombia
+## Estudiante
+Carlos Julio Nieto Morales
+
+## Docente
+[Nombre completo del profesor]
+
+## Estructura del repositorio
+- **Entregas** → PDFs enviados al profesor.
+- **Actividades** → Actividades con su respectivo Código.
+- **README.md** → Este archivo con la descripción del repo.
+
