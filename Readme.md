@@ -6,7 +6,7 @@ Repositorio de respaldo para actividades, ejercicios y entregas del curso POO.
 
 
 
-\## Estructura
+\# Estructura
 
 \- \*\*Entregas\*\* → PDFs enviados al profesor.
 
@@ -16,7 +16,7 @@ Repositorio de respaldo para actividades, ejercicios y entregas del curso POO.
 
 
 
-\## Actividades
+\# Actividades
 
 \- Actividad 1: .
 
@@ -26,7 +26,7 @@ Repositorio de respaldo para actividades, ejercicios y entregas del curso POO.
 
 
 
-\## Autor
+\# Autor
 
 Carlos Julio Nieto Morales
 
