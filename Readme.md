@@ -2,9 +2,6 @@
 
 **Universidad Nacional de Colombia**
 
-## Actividad 1
-Codificación en Java/Python usando clases, métodos y atributos.
-
 ## Estudiante
 Carlos Julio Nieto Morales
 
@@ -13,6 +10,6 @@ Carlos Julio Nieto Morales
 
 ## Estructura del repositorio
 - **Entregas** → PDFs enviados al profesor.
-- **Actividades** → Actividades con su respectivo Código.
+- **Actividades** → Actividades con su respectivas soluciones.
 - **README.md** → Este archivo con la descripción del repo.
 
