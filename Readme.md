@@ -2,9 +2,6 @@
 
 **Universidad Nacional de Colombia**
 
-## Actividad 1
-Codificación en Java/Python usando clases, métodos y atributos.
-
 ## Estudiante
 Carlos Julio Nieto Morales
 
