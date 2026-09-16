@@ -1,22 +1,27 @@
 class Operaciones:
-    @staticmethod
-    def operacion1(suma, x):
-        return suma + x
-    @staticmethod
-    def operacion2(x, y):
-        return x + (y**2)
+    def __init__(self):
+        self.suma = 0
+        self.x = 20
+        self.y = 0
 
-    @staticmethod
-    def operacion3(suma, x, y):
-        return suma + (x/y)
+    def operacion1(self):
+        self.suma = self.x + self.suma
+
+    def operacion2(self):
+        self.y = 40
+        self.x = self.x +(self.y**2)
+
+    def operacion3(self):
+        self.suma = self.suma + (self.x/self.y)
+
+    def mostrar_resultados(self):
+        print(f"El valor de la suma es: {self.suma}")
+
 #programa principal
-x = float(input("Ingresa el valor de x: "))
-suma = float(input("Ingresa el valor inicial de suma: "))
-suma = Operaciones.operacion1(suma, x)
+proceso = Operaciones()
+proceso.operacion1()
+proceso.operacion2()
+proceso.operacion3()
+proceso.mostrar_resultados()
 
-y = float(input("Ingresa el valor de y: "))
-x = Operaciones.operacion2(x, y)
-suma = Operaciones.operacion3(suma, x, y)
-
-print("El valor de la suma es:", suma)
 

@@ -1,24 +1,18 @@
 class Nomina:
-    def calcular_salario_bruto(horas_trabajadas, valor_hora):
-        return horas_trabajadas * valor_hora    
+    def __init__(self, horas_trabajadas, valor_hora, porcentaje_retencion):
+        self.horas_trabajadas = horas_trabajadas
+        self.valor_hora = valor_hora
+        self.porcentaje_retencion = porcentaje_retencion
+        self.salario_bruto = self.horas_trabajadas * self.valor_hora
+        self.retefuente = self.salario_bruto * (self.porcentaje_retencion / 100)
+        self.salario_neto = self.salario_bruto - self.retefuente
 
-    @staticmethod
-    def calcular_valor_retefuente(salario_bruto, porcentaje_retencion):
-        return salario_bruto * (porcentaje_retencion/100)
+    def mostrar_nomina(self):
+        print(f"Salario Bruto: {self.salario_bruto}")
+        print(f"Retención en la fuente: {self.retefuente}")
+        print(f"Salario Neto: {self.salario_neto}")
 
-    @staticmethod
-    def calcular_salario_neto(salario_bruto, retefuente):
-        return salario_bruto - retefuente
 
-#programa principal
-horas_trabajadas = 48
-valor_hora = 5000
-porcentaje_retencion = 12.5
-
-salario_bruto = Nomina.calcular_salario_bruto(horas_trabajadas, valor_hora)
-retefuente = Nomina.calcular_valor_retefuente(salario_bruto, porcentaje_retencion)
-salario_neto = Nomina.calcular_salario_neto(salario_bruto, retefuente)
-
-print(f"El salario bruto es: {salario_bruto}")
-print(f"El valor de retención en la fuente es: {retefuente}")
-print(f"El salario neto es: {salario_neto}")    
+# Programa principal
+empleado = Nomina(horas_trabajadas=48, valor_hora=5000, porcentaje_retencion=12.5)
+empleado.mostrar_nomina()
