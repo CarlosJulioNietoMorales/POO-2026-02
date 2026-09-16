@@ -1,3 +1,7 @@
+#4)ejercicio 14
+# Elabore un algoritmo que lea un número y obtenga su cuadrado y su cubo.
+
+
 class Potencias:
 
     def __init__(self, numero):
