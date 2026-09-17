@@ -11,5 +11,5 @@ Carlos Julio Nieto Morales
 ## Estructura del repositorio
 - **Entregas** → PDFs enviados al profesor.
 - **Actividades** → Actividades con su respectivas soluciones.
-- **README.md** → Este archivo con la descripción del repo.
+
 
