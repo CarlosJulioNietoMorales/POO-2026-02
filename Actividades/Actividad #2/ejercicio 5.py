@@ -15,7 +15,7 @@ class CuentaBancaria:
         self.numero_cuenta = numero_cuenta
         self.tipo_cuenta = tipo_cuenta
         self.saldo = 0.0
-        self.interes_mensual = interes_mensual  # porcentaje, por ejemplo 1.5 = 1,5 %
+        self.interes_mensual = interes_mensual  
 
     def imprimir(self) :
         print(f"Nombres del titular = {self.nombres_titular}")
