@@ -34,4 +34,4 @@ Ventana principal con un botón por figura geométrica. Cada botón abre una ven
 | `ejercicio_8_2_notas/` | Código fuente del ejercicio 8.2 |
 | `ejercicio_8_3_figuras/` | Código fuente del ejercicio 8.3 |
 | `diagramas/` | Diagramas de clases, de objetos y de casos de uso |
-| `Imagenes de interfaz/` | Capturas de la interfaz de usuario (PDF) |
+| `Imagenes de interfaz/` | Capturas de la interfaz de usuario |
